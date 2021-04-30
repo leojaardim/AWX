@@ -2,11 +2,12 @@
 - hosts: all
   gather_facts: true
   become: true
-  args:
-    warn: false
+  
   tasks:
     - apt:
         update_cache: true
         name: vim
         state: latest
         upgrade: dist
+      args:
+        warn: false
