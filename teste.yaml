@@ -8,6 +8,5 @@
         update_cache: true
         name: vim
         state: latest
-        upgrade: yes
       args:
         warn: false
