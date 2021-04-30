@@ -8,4 +8,5 @@
     - apt:
         update_cache: true
         name: vim
-        state: latest  
+        state: latest
+        upgrade: dist
