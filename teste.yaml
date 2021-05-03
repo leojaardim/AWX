@@ -6,10 +6,6 @@
     - yum:
         name: vim
       when: ansible_os_family == "RedHat"
-      args:
-        warn: false
     - apt:
         name: vim
       when: ansible_os_family == "Debian"
-      args:
-        warn: false
